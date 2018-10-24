@@ -1,0 +1,6 @@
+python2 scripts/preprocess.py \
+  --input_txt data/princesongs.txt \
+  --output_h5 data/princesongs.h5 \
+  --output_json princesongs.json
+
+th train.lua -input_h5 data/princesongs.h5 -input_json princesongs.json

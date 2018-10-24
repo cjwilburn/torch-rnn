@@ -11,9 +11,9 @@ import codecs
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--input_txt', default='data/tiny-shakespeare.txt')
-parser.add_argument('--output_h5', default='data/tiny-shakespeare.h5')
-parser.add_argument('--output_json', default='data/tiny-shakespeare.json')
+parser.add_argument('--input_txt', default='data/tiny-prince.txt')
+parser.add_argument('--output_h5', default='data/tiny-prince.h5')
+parser.add_argument('--output_json', default='data/tiny-prince.json')
 parser.add_argument('--val_frac', type=float, default=0.1)
 parser.add_argument('--test_frac', type=float, default=0.1)
 parser.add_argument('--quiet', action='store_true')
